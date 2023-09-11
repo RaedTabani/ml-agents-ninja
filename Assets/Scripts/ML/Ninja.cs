@@ -15,6 +15,7 @@ namespace AI{
         [SerializeField] private RewardPunishmentHandler rewardPunishmentHandler;
         private NinjaConfiguration configuration;
         private PhysicsbasedMovement mover;
+        //New Comment
         public override void Initialize()
         {
             mover = GetComponent<PhysicsbasedMovement>();
