@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4438265536518782048}
   - component: {fileID: 8387604903719849064}
   - component: {fileID: 8109092654069696195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boundry
   m_TagString: Boundry
   m_Icon: {fileID: 0}

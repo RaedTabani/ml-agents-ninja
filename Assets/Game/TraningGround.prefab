@@ -900,6 +900,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3672842671972264617, guid: fe397b3f8f0673b4b8f756e2ba8ebb45, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: f64ceb5d857211445ad2067c11b9fb86, type: 3}
+    - target: {fileID: 3672842671972264617, guid: fe397b3f8f0673b4b8f756e2ba8ebb45, type: 3}
+      propertyPath: m_BehaviorType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -937,6 +945,7 @@ MonoBehaviour:
   m_AgentGameObject: {fileID: 6334053464603315573}
   m_DetectableTags:
   - Obstacle
+  - Boundry
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 64
@@ -944,6 +953,7 @@ MonoBehaviour:
   m_InitialColliderBufferSize: 4
   m_DebugColors:
   - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 1, g: 0.8960531, b: 0, a: 0}
   m_GizmoYOffset: 0
   m_ShowGizmos: 1
   m_CompressionType: 1
